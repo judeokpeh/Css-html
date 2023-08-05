@@ -1,0 +1,118 @@
+.nav {
+    cursor: pointer;
+    display: flex;
+    padding:5px 8px;
+    gap: 1rem;
+    background-color: rgba(11, 90, 20, 0.754);
+    color: white;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 920px;
+    margin-top: 0px;
+}
+
+.nav2{
+    display: flex;
+    gap: 1rem;
+    padding-right: 8px;
+
+}
+
+.vue{
+    position: relative;
+   align-items: center;
+}
+
+.button{
+    padding: 10px;
+    gap: 2rem;
+}
+.btn1{
+    background-color: red;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    width: 105px;
+    height: 36px;
+    transition: opacity 0.15s;
+
+
+}
+.btn2{
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgba(91, 135, 218, 0.781);
+    font-weight: 800;
+    border-color: rgb(50, 121, 245);
+    width: 62px;
+    font-size: 20px;
+    height: 36px;
+      transition: opacity 0.1s;
+    
+
+}
+
+.btn3{
+    background-color: rgb(19, 123, 209);
+    border-radius: 20px;
+    height: 36px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.15;
+    font-weight: 600;
+    
+}
+
+.btn3:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.cart{
+    align-content: center;
+    margin-left: 10px;
+}
+
+ .text{
+    font-size: 40px;
+ }
+ .price{
+    color: rgb(0, 118, 0);
+    font-weight: 600;
+    font-size: 30px;
+ }
+ .del{
+    font-size: 30px;
+ }
+ .btncart{
+    height: 50px;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 216, 20);
+    border: none;
+     transition: opacity 0.15s, background-color 1s;
+ }
+ .btncart:hover{
+    opacity: 0.7;
+ }
+ .btn2:hover{
+    background-color: rgb(15, 15, 242);
+    color: white;
+    opacity: 0.7;
+ }
+ .btnbuy{
+    height: 50px;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 164, 28);
+    border: none;
+ }
